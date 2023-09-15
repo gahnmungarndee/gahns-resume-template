@@ -1,0 +1,88 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Resume Template             %
+%                                       %
+% Developed by Gahn Mungarndee,         %
+% undergraduate student in Industrial   %
+% Engineering at Purdue University.     %
+%                                       %
+% Last updated on 9/14/2023             %
+%                                       %
+% Contact at gahn@mungarndee.com.       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Changes last made 9/14/2023
+
+\documentclass{resume}
+\begin{document}
+
+\name{John Smith} % Your name (duh)
+\contact
+    {example@example.com} % Your email
+    {1234567890} % Your phone number (format xxxxxxxxxx)
+    {example.com/link} % website/LinkedIn (format example.com/blablabla
+    {General Metro Area} % Your geographic area
+
+% Optional values - Set to {} if not desired.
+\section{Education}
+\education
+    {Reputable University} % Institution name
+    {City, ST} % Institution location
+    {Jan 1970} % Start date
+    {Jan 1974} % End date
+    {B.S. in Underwater Basket Weaving} % Degree
+    {Minor in Swimming} % (Optional) Minor(s)
+    {Certificate in Dabbing} % (Optional) Additional curricula
+    {Apple Delta Pi Fraternity; Funny Sounding Club.} % (Optional) Involvement & Honors 
+
+\section{Work Experience}
+\work
+    {Incorporated Inc.} % Company nae
+    {City, ST} % Location worked
+    {May 2023} % Start date
+    {Present} % End date
+    {Certified Cool Person} % Title
+    { % Description - use \newitem for each bulletpoint
+        \newitem Developed a way to make the company cool.
+    }
+
+\work
+    {Cool Sounding Company}
+    {City, ST}
+    {Aug 2021}
+    {May 2023}
+    {Certified Organized Person}
+    {
+        \newitem Created a way to make the company organized.
+    }
+
+\section{Volunteer Experience}
+\volunteer
+    {Organization for Helping People} % Organization name
+    {Aug 2021} % Membership start date
+    {Present} % Membership end date
+    {Member} % Position
+    { % Description - use \newitem for each bulletpoint
+        \newitem Performed an an average of 40 service hours per year for the local community.
+    }
+
+\volunteer
+    {Furry Friends of City}
+    {May 2022}
+    {May 2023}
+    {Vice President of Petting Pets}
+    {
+        \newitem Led pet petting effort for the Furry Friends of City.
+    }
+
+\section{Skills}
+\general{ % Description - use \newitem for each bulletpoint
+    \newitem \textbf{Technical:} Microsoft Office, \LaTeX
+
+    \newitem \textbf{People:} Talking to people
+}
+
+\section{Honors}
+\general{
+    \newitem 2006 Time Magazine Person of the Year
+}
+\end{document}
