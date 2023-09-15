@@ -12,6 +12,8 @@ A very simple, elegant, and extendable resume template to highlight all the best
 
 This template is intentionally simple, well documented, and customizable. At the moment, all resume modules are put in one main document (main.tex) but can be seperated into their own module files to maintain your historical record of experiences. Modules can be moved around to highlight your world-class education for those looking for internships or entry careers, or to highlight your impressive experience to score that career-progressing job.
 
+For the record, I made this from scratch exclusively for the \LaTeX command.
+
 ## How to Use
 Clone (or copy/paste) this repository into your LaTeX editor of choice. [Overleaf](overleaf.com) is what I recommend to use (I made this on Overleaf). You'll be presented with three files:
 
