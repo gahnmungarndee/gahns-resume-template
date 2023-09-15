@@ -16,8 +16,9 @@ This template is intentionally simple, well documented, and customizable. At the
 Clone (or copy/paste) this repository into your LaTeX editor of choice. [Overleaf](overleaf.com) is what I recommend to use (I made this on Overleaf). You'll be presented with three files:
 
 1. README.md - That's this document! Feel free to dork around in this...or not. This doesn't affect the resume.
-2. main.tex - This is where you'll add content and build your resume.
-3. resume.cls - This is a class file that styles the resume.
+2. SampleResume.pdf - See what it looks like before you commit! Granted I spent very little time making this look like a real resume, but I promise mine looks very professional.
+3. main.tex - This is where you'll add content and build your resume.
+4. resume.cls - This is a class file that styles the resume.
 
 It may be hard to read what's in these files because LaTeX is not very intutitive to use. But fear not, because both files are very well documented (I think). Combine it with this guide and you'll be nailing down that job in no time.
 
