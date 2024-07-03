@@ -76,7 +76,7 @@
     	{\bfseries #1 \textbar\space {\small #2}} & {\bfseries #3 - #4} \\
             {#5\ifthenelse{\equal{#6}{}}{}{, #6}}
             \ifthenelse{\equal{#7}{}}{}{\\{#7} & \\}
-    \end{tabular*}\vspace{-0.8em}
+    \end{tabular*}\vspace{-0.5em}
 
     \ifthenelse{\equal{#8}{}}{}{
         \begin{itemize}
